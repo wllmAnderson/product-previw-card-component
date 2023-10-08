@@ -1,5 +1,6 @@
 
 import './App.css';
+import Image from './Image';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <div class="card mb-3" style={{maxWidth: '540px'}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="" class="img-fluid rounded-start" alt="..." />
+      <Image />
     </div>
     <div class="col-md-8">
       <div class="card-body">
