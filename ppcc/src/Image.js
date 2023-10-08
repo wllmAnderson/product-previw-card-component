@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/images/image-product-desktop.jpg';
-import '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/images/image-product-desktop.jpg';
+import '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/Image.css';
 const Image = () => {
   return (
     <div className="perfume object-fit-cover border rounded">
