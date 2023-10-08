@@ -1,33 +1,41 @@
-.App {
-  background-color:darkgray;
-  padding-top: 25%;
-  padding-right: 25%;
-  padding-bottom: 25%;
-  padding-left: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
+/* styles.css */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Fraunces:wght@700&display=swap');
+
+/* Layout */
+
+/* You can use a container or specific classes to constrain content to these widths, or use them in media queries */
+
+/* Colors */
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
 }
 
+/* Typography */
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--very-dark-blue); /* Default body text color */
+    background-color: var(--white); /* Default background color */
 }
 
-
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
 }
+
+/* Media Queries for Layout */
+
+/* Mobile styles would be your default styles since we use a mobile-first approach, then you'd expand upon or override these styles with a media query for larger screens: */
+
+@media screen and (min-width: 1440px) {
+    /* Desktop styles go here */
+}
+
