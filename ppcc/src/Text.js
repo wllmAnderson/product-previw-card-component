@@ -1,11 +1,14 @@
 import '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/Text.css'
+import Addtocart from './Addtocart';
 const Text = () => {
   return (
     <>
-<div class="col-md-8 p-4">
-      <div class="card-body">
-        <h5 class="card-title fs-6">Perfume</h5>
-        <p class="card-text fs-3">Gabrielle<br></br> Essence Eau<br></br> De Parfum</p>
+<div class="col-md-8 p-2">
+      <div class="card-body ms-4">
+        <h5 class="card-title fs-6" style={{ fontFamily: 'Fraunces, serif' }}>
+        <small class="text-body-secondary text-wrap" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+          Perfume</small></h5>
+        <p class="card-text fs-3"><strong>Gabrielle</strong><br></br><strong>Essence Eau</strong> <br></br><strong>De Parfum</strong> </p>
         <p class="card-text fs-6" style={{ fontFamily: 'Fraunces, serif' }}>
                 <small class="text-body-secondary text-wrap" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                   A floral, solar and voluptuous<br></br> interpretation
@@ -19,6 +22,7 @@ const Text = () => {
                   $169.99
                 </span>
                 </p>
+                <Addtocart />
       </div>
 </div>
 </>

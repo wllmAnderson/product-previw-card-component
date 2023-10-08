@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Addtocart from "./Addtocart";
 
 import './App.css';
 import Image from './Image';
