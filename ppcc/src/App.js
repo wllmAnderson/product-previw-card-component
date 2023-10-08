@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Addtocart from "./Addtocart";
+
 
 import './App.css';
 import Image from './Image';
@@ -8,6 +8,8 @@ import Text from './Text';
 function App() {
   return (
     <>
+    <div className="App"></div>
+    
     <body>      
       <div className="card mb-3 rounded fixed-top position-absolute top-50 start-50 translate-middle"
         style={{ maxWidth: "540px" }}>

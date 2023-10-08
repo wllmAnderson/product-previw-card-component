@@ -1,5 +1,6 @@
 import '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/Text.css'
 import Addtocart from './Addtocart';
+import '/Users/williamanderson/Desktop/Github-Repo/product-previw-card-component/ppcc/src/App.css'
 const Text = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const Text = () => {
                   CHANEL.
                 </small>
               </p>
-      <p class="text-success fs-3">
+      <p class="text-success fs-3" style={{ fontFamily: 'Fraunces, serif' }}>
                 $149.99{" "}
                 <span class="text-decoration-line-through text-black fs-6">
                   $169.99
